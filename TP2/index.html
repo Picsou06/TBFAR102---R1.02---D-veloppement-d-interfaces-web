@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Bienvenue sur la page personnelle de Evan !</title>
     <style>
-      table,
+      #table1,
       td,
       th {
         border: 1px solid gray;
-      } /* Bordures des tableaux */
+        margin: 10px;
+        padding: 10px;
+      }
+      bold {
+        font-weight: bold;
+      }
     </style>
   </head>
   <body>
@@ -32,7 +37,7 @@
         Si vous souhaitez en savoir plus sur l'Université Côte d'Azur, vous
         pouvez <a href="https://univ-cotedazur.fr/">cliquer ici</a>.
       </p>
-      <br>
+      <br />
       <p>Hobbits:</p>
       <ul>
         <li><a href="https://fr.wikipedia.org/wiki/Natation">Natation</a></li>
@@ -75,7 +80,7 @@
                 ><i><b>Mon livre préféré :</b></i></u
               >
             </h2>
-            <br>
+            <br />
             <u
               ><i
                 ><b
@@ -85,27 +90,63 @@
                 ></i
               ></u
             >
-            par Suzanne Collins.<br>
+            par Suzanne Collins.<br />
             <u
               ><i><b>Résumé :</b></i></u
             >
-            <br>
+            <br />
             Hunger Games est un roman dystopique qui se déroule dans un futur
             post-apocalyptique. L'histoire se déroule dans la nation de Panem,
             où chaque année, un garçon et une fille de chaque district sont
             sélectionnés pour participer aux Hunger Games, un combat à mort
             télévisé. Katniss Everdeen, une jeune fille courageuse, se porte
-            volontaire pour prendre la place de sa sœur dans les jeux. <br>
+            volontaire pour prendre la place de sa sœur dans les jeux. <br />
           </td>
           <td>
             <img
               src="https://m.media-amazon.com/images/I/61i8nC90deL._AC_UF1000,1000_QL80_.jpg"
               alt="Hunger Games"
-              style="width:304px;"
-            >
+              style="width: 304px"
+            />
           </td>
         </tr>
       </table>
+    </section>
+    <section id="peintre">
+      <h2>Les peintres</h2>
+      <ol>
+        <li>
+          <a href="/wiki/Jean_de_Beaumetz" title="Jean de Beaumetz"
+            >Jean de Beaumetz</a
+          >, (vers 1335-1396)
+        </li>
+        <li>
+          <a href="/wiki/Jean_le_Noir" class="mw-redirect" title="Jean le Noir"
+            >Jean le Noir</a
+          >
+          (actif entre 1335 et 1380)
+        </li>
+        <li>
+          <a href="/wiki/Jacquemart_de_Hesdin" title="Jacquemart de Hesdin"
+            >Jacquemart de Hesdin</a
+          >
+          (1355-1414)
+        </li>
+      </ol>
+    </section>
+
+    <section id="musicien">
+      <h2>Les musiciens</h2>
+      <ol>
+        <li>
+          Herms Niel
+          <ol>
+            <li>Der Geist von Potsdam</li>
+            <li>Ruck Zuck</li>
+            <li>Zicke-Zacke</li>
+          </ol>
+        </li>
+      </ol>
     </section>
 
     <section id="section3">
@@ -138,6 +179,52 @@
             Eh bien! dansez maintenant. "
         </pre
       >
+    </section>
+    <section id="formations">
+      <h2>Les formations universitaires à l’Université Côte d’Azur</h2>
+      <table id="table1">
+        <tr>
+          <td></td>
+          <td>IUT</td>
+          <td>
+            <table>
+              <tr>
+                <td>UFR Sciences</td>
+              </tr>
+              <tr>
+                <td>Département Informatique</td>
+              </tr>
+              <tr>
+                <td>IUP MIAGE</td>
+                <td></td>
+              </tr>
+            </table>
+          </td>
+          <td>Polytech Nice Sophia</td>
+        </tr>
+        <tr>
+          <td>Bac +8</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowspan="1">Bac +5</td>
+          <td></td>
+          <td></td>
+          <td>Ingenieur Informatique</td>
+        </tr>
+        <tr>
+          <td rowspan="1">Bac +3</td>
+          <td></td>
+          <td></td>
+          <td>Cycle Preparatoire</td>
+        </tr>
+        <tr>
+          <td rowspan="1"></td>
+          <td colspan="3" style="text-align: center;"><bold>BAC</bold></td>
+        </tr>
+      </table>
     </section>
     <div id="logo">
       <pre>
